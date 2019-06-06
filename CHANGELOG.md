@@ -1,3 +1,12 @@
+# 0.6.2
+* Swift 5 support
+
+# 0.6.1
+* fix crash in dataSource method pickerView:titleForRow:forComponent by checking bounds on `component` argument
+
+# 0.6.0
+* fix issues with changing picker font size, use auto-layout
+
 # 0.5.0
 * Completely reorganize the file layout to better support SPM, Carthage and Cocoapods, as well as make it easier for users to incorporate
   into their projects

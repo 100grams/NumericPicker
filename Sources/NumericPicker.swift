@@ -442,7 +442,7 @@ extension NumericPicker: UIPickerViewDelegate {
         let title = self.pickerView(pickerView, titleForRow: row, forComponent: component)
         pickerLabel.text = title
         pickerLabel.font = font
-        pickerLabel.accessibilityTraits = UIAccessibilityTraitAdjustable
+        pickerLabel.accessibilityTraits = UIAccessibilityTraits.adjustable
         pickerLabel.accessibilityValue = title
         pickerLabel.sizeToFit()
         return pickerLabel
